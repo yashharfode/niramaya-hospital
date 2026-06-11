@@ -81,7 +81,7 @@ export default function Testimonials() {
                 <>
                   <div className="absolute inset-0 z-0">
                     <Image 
-                      src={review.thumbnail}
+                      src={review.thumbnail || ""}
                       alt="Video Testimonial"
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
