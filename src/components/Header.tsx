@@ -55,7 +55,7 @@ export default function Header() {
         {/* Action Button Container (Flex 1 to balance left side) */}
         <div className="hidden lg:flex flex-1 justify-end shrink-0 ml-2 xl:ml-0">
           <Link
-            href="#appointment"
+            href="/appointment"
             className="bg-brand-blue hover:bg-[#062960] text-white px-5 xl:px-8 py-2.5 xl:py-3 rounded-full font-bold text-[13px] xl:text-sm tracking-wide transition-all shadow-[0_8px_20px_rgba(4,30,66,0.15)] hover:shadow-[0_8px_20px_rgba(4,30,66,0.3)] hover:-translate-y-0.5 whitespace-nowrap"
           >
             Book Appointment
@@ -87,7 +87,7 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="#appointment"
+            href="/appointment"
             className="bg-brand-blue text-white px-6 py-4 rounded-xl text-center font-bold shadow-lg mt-4"
             onClick={() => setIsMobileMenuOpen(false)}
           >

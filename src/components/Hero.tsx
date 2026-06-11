@@ -74,7 +74,7 @@ export default function Hero() {
                 className="flex flex-col sm:flex-row items-center sm:items-start gap-4"
               >
                 <Link
-                  href="#appointment"
+                  href="/appointment"
                   className="bg-brand-red hover:bg-[#c9302c] text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 transition-colors shadow-lg w-full sm:w-auto"
                 >
                   <CalendarCheck size={20} />
