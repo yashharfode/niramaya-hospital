@@ -9,6 +9,7 @@ const doctors = [
   {
     name: "Dr. Rajesh Sharma",
     specialty: "Cardiology",
+    qualification: "MBBS, MD",
     experience: "15+ Years",
     image: "/assets/doctors/doctor-1.png",
     availability: "Available Today",
@@ -16,6 +17,7 @@ const doctors = [
   {
     name: "Dr. Neeta Verma",
     specialty: "Orthopedics",
+    qualification: "MBBS, MS",
     experience: "12+ Years",
     image: "/assets/doctors/doctor-2.png",
     availability: "Available Today",
@@ -23,6 +25,7 @@ const doctors = [
   {
     name: "Dr. Amit Gupta",
     specialty: "Pediatrics",
+    qualification: "MBBS, MD",
     experience: "10+ Years",
     image: "/assets/doctors/doctor-3.png",
     availability: "Tomorrow",
@@ -30,6 +33,7 @@ const doctors = [
   {
     name: "Dr. Sunita Rao",
     specialty: "Gynecology",
+    qualification: "MBBS, MD",
     experience: "18+ Years",
     image: "/assets/doctors/doctor-4.png",
     availability: "Available Today",
